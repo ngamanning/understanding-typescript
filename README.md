@@ -19,4 +19,5 @@ Resources:
 tsconfig Docs: https://www.typescriptlang.org/docs/handbook/tsconfig-json.html
 Compiler Config Docs: https://www.typescriptlang.org/docs/handbook/compiler-options.html
 VS Code TS Debugging: https://code.visualstudio.com/docs/typescript/typescript-debugging
-
+More on Advanced Types: https://www.typescriptlang.org/docs/handbook/advanced-types.html
+More on Generics: https://www.typescriptlang.org/docs/handbook/generics.html
