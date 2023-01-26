@@ -1,26 +1,46 @@
-# understanding-typescript
+# Getting Started with Create React App
 
-## TypeScript command 
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-compile in watch mode: 
-    tsc filename.ts -w 
+## Available Scripts
 
-compile the entire project
-    run tsc --init (generate tsconfig.json file at root) once, then instead of run tsc filename.ts, just run tsc at root 
+In the project directory, you can run:
 
-Including and excluding files
-    NOTE: files listed in exclude will serve as filter for include, hence, compilation will be files in include - exclude 
+### `npm start`
 
-Strict compilation: to enable all strict compilation, set "strict": true 
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-Code quality check: 
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
-Resources: 
-tsconfig Docs: https://www.typescriptlang.org/docs/handbook/tsconfig-json.html
-Compiler Config Docs: https://www.typescriptlang.org/docs/handbook/compiler-options.html
-VS Code TS Debugging: https://code.visualstudio.com/docs/typescript/typescript-debugging
-More on Advanced Types: https://www.typescriptlang.org/docs/handbook/advanced-types.html
-More on Generics: https://www.typescriptlang.org/docs/handbook/generics.html
-JavaScript Modules (Overview): https://medium.com/computed-comparisons/commonjs-vs-amd-vs-requirejs-vs-es6-modules-2e814b114a0b
-Class transformer: https://github.com/typestack/class-transformer
-Class validator: https://github.com/typestack/class-validator
+### `npm test`
+
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
