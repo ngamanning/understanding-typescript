@@ -6,7 +6,7 @@ interface ToDoListProps {
 
 export const ToDoList : React.FC<ToDoListProps> = ( props) => { 
     return <ul>
-        { props.items.map( item => <li>{item.description}</li>) }
+        { props.items.map( (item,index) => <li key={index}>{item.description}</li>) }
     </ul>
 
 }
